@@ -1,0 +1,19 @@
+.cardcontainer {
+  align-content: center;
+  justify-content: center;
+  display: contents;
+}
+.row {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.routingText:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

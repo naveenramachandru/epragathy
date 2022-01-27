@@ -1,0 +1,75 @@
+.custom {
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  padding: auto;
+}
+.custom:hover {
+  transform: scale(1.08);
+  box-shadow: 0px 0px 15px -5px;
+}
+.card-title:hover {
+  color: darkgreen;
+  padding-top: 10%;
+}
+.card-title {
+  padding-top: 10%;
+}
+.custom img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.card:hover img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.btn .fa {
+  color: darkgreen;
+}
+.btn:hover .fa {
+  color: black;
+  transform: scale(1.5);
+}
+
+.image-container img {
+  overflow: hidden;
+  height: 200px;
+}
+.textimg img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.textimg:hover img {
+  -webkit-transform: scale(1.1);
+
+  transform: scale(1.1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.textwrap {
+  padding-top: 60px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.textwrap p {
+  /* font-family: "Caveat", cursive;
+  font-family: 'Caveat', cursive; */
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 22px;
+  color: rgba(27, 26, 26, 0.966);
+}
+.textwrap:hover {
+  padding: 60px;
+
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
